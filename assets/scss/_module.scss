@@ -1,0 +1,22 @@
+
+.home-page-products {
+    @include size (12.5%, auto)
+}
+
+.custom-btn {
+    @include button-variant(#ddd, #ddd, #ddd);
+}
+
+.example {
+    @include gradient-horizontal(#ddd, #ddd, 0%, 100%);
+}
+
+
+	.international-option {
+		@include make-md-column(4);
+		//col-md-4 column text-center hidden-xs hidden-sm
+	}
+	.header-coupon {
+		@include make-md-column(3);
+		//col-md-3 column hidden-xs hidden-sm
+	}
